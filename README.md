@@ -22,6 +22,10 @@ Now the client can send this random number along with their <code>POST</code> re
 
 Doh, it's a general principle. Think about it a little bit...
 
+# Erm, we have users that we trust
+
+For those users, offer a way to prove that they are the ones you trust, i.e. authentication. Do not require solving a challenge from those.
+
 # Example chat service
 
 Work in progress..
