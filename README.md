@@ -18,6 +18,10 @@ So before sending their <code>POST</code> the client has to first perform a <cod
 
 Now the client can send this random number along with their <code>POST</code> request. All the server has to do is to rehash the random number sent along by the client, check if the hash's <code>$PREFIX</code> matches the one it challenged the client with and if that's the case, accept the <code>POST</code>.
 
+# Um, our service doesn't speak <code>HTTP</code>
+
+Doh, it's a general principle. Think about it a little bit...
+
 # Example chat service
 
 Work in progress..
