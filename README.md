@@ -6,7 +6,7 @@ capcha + POW (proof of work) = capchow -> catchow 'cause "Meow!" - A general mec
 
 * You have a service (e.g. a wiki, or a message form for comments in a webpage, or a web service that calculates something) and you want to make it available without a pesky, lengthy signup process
 * You do not want this service to be abused (by spammers, leechers, etc.)
-* The solution: Make users spend work to access your service and proof to you that they actually did the work: This is known as Proof-of-Work, or <code>pow</code> for short
+* The solution: Make users spend work to access your service and send proof to you that they actually did the work: This is known as Proof-of-Work, or <code>pow</code> for short
 
 # How?
 
