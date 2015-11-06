@@ -1,0 +1,17 @@
+{
+    "name": "catchow-example",
+    "description": "Example nodejs service for catchow",
+    "author": "Florian Paul Schmidt",
+    "version": "0.0.1",
+    "repository": "https://github.com/fps/catchow",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "jade": "*",
+        "node-uuid": "*",
+        "crypto": "*"
+    }
+}
+
