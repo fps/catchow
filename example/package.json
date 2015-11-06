@@ -4,6 +4,7 @@
     "author": "Florian Paul Schmidt",
     "version": "0.0.1",
     "repository": "https://github.com/fps/catchow",
+    "license": "GPL-3.0",
     "scripts": {
         "start": "node server.js"
     },
