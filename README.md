@@ -16,5 +16,9 @@ Let's say you have a webservice accepting <code>POST</code> requests on an URI <
 
 So before sending their <code>POST</code> the client has to first perform a <code>GET</code> on, for example, the URI <code>$URI/challenge</code>. The server picks a random number and hashes it giving, for example, the hash <code>$HASH</code>. It sends the first <code>n</code> bits of this hash to the client in the response to the <code>GET</code>. We call these first <code>n</code> bits the <code>$PREFIX</code>. The client now starts drawing random numbers and hashes them until he has found one with a hash that starts with the given <code>$PREFIX</code>.
 
-Now the client can send this random number along with their <code>POST</code> request. All the server has to do is to rehash the random number sent along, check it its <code>$PREFIX</code> matches and if that's the case, accept the <code>POST</code>
+Now the client can send this random number along with their <code>POST</code> request. All the server has to do is to rehash the random number sent along by the client, check if the hash's <code>$PREFIX</code> matches the one it challenged the client with and if that's the case, accept the <code>POST</code>.
+
+# Example chat service
+
+Work in progress..
 
