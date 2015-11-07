@@ -12,7 +12,7 @@
         "express": "*",
         "express-session": "*",
         "uuid": "*",
-        "crypto": "*",
+        "crypto-js": "*",
         "body-parser": "*"
     }
 }
