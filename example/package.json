@@ -10,9 +10,10 @@
     },
     "dependencies": {
         "express": "*",
-        "jade": "*",
-        "node-uuid": "*",
-        "crypto": "*"
+        "express-session": "*",
+        "uuid": "*",
+        "crypto": "*",
+        "body-parser": "*"
     }
 }
 
